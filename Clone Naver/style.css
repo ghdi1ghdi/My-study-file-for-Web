@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    margin-top:230px;
+    font-family: "Helvetica Neue","Apple SD Gothic Neo",sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 1.267em
+}
+h1 span:nth-child(1){
+    color:#608df9;
+}
+h1 span:nth-child(2){
+    color:#abc600;
+}
+h1 span:nth-child(3){
+    color:#fbb900;
+}
+h1 span:nth-child(4){
+    color:#ef685e;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 120%;
+  border: 3px solid #19ce60;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #19ce60;
+  background: #19ce60;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
